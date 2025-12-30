@@ -1,0 +1,239 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "07236397-3ba4-47af-9809-3faac3a2aa49")
+	(paper "A3")
+	(title_block
+		(title "Project Architecture")
+		(date "2025-12-19")
+		(rev "1")
+		(company "${COMPANY}")
+	)
+	(lib_symbols)
+	(text "Page 4"
+		(exclude_from_sim no)
+		(at 283.21 140.97 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(bold yes)
+				(color 100 70 50 1)
+			)
+			(justify right bottom)
+			(href "#4")
+		)
+		(uuid "57c57f56-0668-434e-81c6-7933fb1a8739")
+	)
+	(text "Page 5"
+		(exclude_from_sim no)
+		(at 199.39 140.97 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(bold yes)
+				(color 100 70 50 1)
+			)
+			(justify right bottom)
+			(href "#5")
+		)
+		(uuid "eee45d71-32fa-499f-a555-793967ed7e86")
+	)
+	(text_box "[${#}] ${TITLE}"
+		(exclude_from_sim no)
+		(at 12.7 12.7 0)
+		(size 394.97 13.97)
+		(margins 5.9999 5.9999 5.9999 5.9999)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 8 8)
+				(thickness 1.2)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+		)
+		(uuid "f4789478-c68e-4cee-9edd-5d11b744f94d")
+	)
+	(wire
+		(pts
+			(xy 200.66 132.08) (xy 247.65 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f25a4fa-a84d-4cb8-91b0-0905d5ba4620")
+	)
+	(wire
+		(pts
+			(xy 200.66 125.73) (xy 247.65 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0425048-2d0c-4443-abd3-4068f38379d7")
+	)
+	(wire
+		(pts
+			(xy 200.66 128.27) (xy 247.65 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2bcfbe1-6203-4a57-907e-10c7817b79f6")
+	)
+	(sheet
+		(at 165.1 100.33)
+		(size 35.56 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(color 255 255 0 0.5000)
+		)
+		(uuid "87ec52b1-2e4e-4bae-bd8b-72c5c03421b9")
+		(property "Sheetname" "Connectors"
+			(at 165.1 99.5676 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Display.kicad_sch"
+			(at 165.1 142.8754 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "I2C-SCL" output
+			(at 200.66 125.73 0)
+			(uuid "c2e21266-f768-4cfa-947f-573269147dbe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C-SDA" bidirectional
+			(at 200.66 128.27 0)
+			(uuid "9389414e-21cf-4be3-9954-1977a6270c27")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{Expander-INT}" input
+			(at 200.66 132.08 0)
+			(uuid "c3aefbeb-41f4-44f7-9a5a-f4fbd5771e4e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Displayboard"
+				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 247.65 102.87)
+		(size 36.83 39.37)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(color 0 255 0 0.5000)
+		)
+		(uuid "dbb3c4fe-7c18-4870-94de-cd2c1d2e23a1")
+		(property "Sheetname" "Peripherals"
+			(at 247.65 102.1076 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Peripherals.kicad_sch"
+			(at 247.65 142.8754 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "~{Expander-INT}" output
+			(at 247.65 132.08 180)
+			(uuid "1818be55-c7f8-40e5-8e75-d6f26594b76e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C-SCL" input
+			(at 247.65 125.73 180)
+			(uuid "5724af07-bd39-4504-a855-ddc37afb554e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C-SDA" bidirectional
+			(at 247.65 128.27 180)
+			(uuid "6d0a7f1e-b4e2-4004-9f68-030a600415b5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Displayboard"
+				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e"
+					(page "4")
+				)
+			)
+		)
+	)
+)
