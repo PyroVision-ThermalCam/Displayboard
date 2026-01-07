@@ -2,21 +2,23 @@
 <export version="E">
   <design>
     <source>/__w/Displayboard/Displayboard/displayboard/Displayboard.kicad_sch</source>
-    <date>2025-12-30T11:01:14+0000</date>
+    <date>2026-01-07T14:07:56+0000</date>
     <tool>Eeschema 9.0.6+1</tool>
     <textvar name="ASSEMBLY_NOTES"/>
     <textvar name="BOARD_NAME">Displayboard</textvar>
-    <textvar name="COMPANY">Kampis-Elektroecke</textvar>
+    <textvar name="COMPANY">PyroVision</textvar>
     <textvar name="DESIGNER">Daniel Kampert</textvar>
     <textvar name="FABRICATION_NOTES"/>
-    <textvar name="GIT_HASH_PCB">282ed14</textvar>
+    <textvar name="GIT_HASH_PCB">ea732d4</textvar>
     <textvar name="GIT_HASH_SCH">282ed14</textvar>
     <textvar name="GIT_URL">https://github.com/PyroVision-ThermalCam/Displayboard</textvar>
     <textvar name="PROJECT_NAME">PyroVision</textvar>
+    <textvar name="RELEASE_BODY_1.0.0">Version 1.0.0 not found.</textvar>
     <textvar name="RELEASE_BODY_2.2.0">Version 2.2.0 not found.</textvar>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">30-Dec-2025</textvar>
-    <textvar name="RELEASE_DATE_NUM">2025-12-30</textvar>
+    <textvar name="RELEASE_DATE">07-Jan-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-01-07</textvar>
+    <textvar name="RELEASE_TITLE_1.0.0">Version 1.0.0 not found.</textvar>
     <textvar name="RELEASE_TITLE_2.2.0">Version 2.2.0 not found.</textvar>
     <textvar name="RELEASE_TITLE_UNRELEASED">Version Unreleased not found.</textvar>
     <textvar name="REVISION"/>
@@ -64,7 +66,7 @@
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Template</title>
-        <company>Kampis-Elektroecke</company>
+        <company>PyroVision</company>
         <rev>1</rev>
         <date>2025-12-19</date>
         <source>Displayboard.kicad_sch</source>
@@ -82,7 +84,7 @@
     <sheet number="2" name="/Block Diagram/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/">
       <title_block>
         <title>Template</title>
-        <company>Kampis-Elektroecke</company>
+        <company>PyroVision</company>
         <rev>1</rev>
         <date>2025-12-19</date>
         <source>Block Diagram.kicad_sch</source>
@@ -100,7 +102,7 @@
     <sheet number="3" name="/Project Architecture/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/">
       <title_block>
         <title>Project Architecture</title>
-        <company>Kampis-Elektroecke</company>
+        <company>PyroVision</company>
         <rev>1</rev>
         <date>2025-12-19</date>
         <source>Project Architecture.kicad_sch</source>
@@ -118,7 +120,7 @@
     <sheet number="4" name="/Project Architecture/Peripherals/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/dbb3c4fe-7c18-4870-94de-cd2c1d2e23a1/">
       <title_block>
         <title>Peripherals</title>
-        <company>Kampis-Elektroecke</company>
+        <company>PyroVision</company>
         <rev>1</rev>
         <date>2025-12-19</date>
         <source>Peripherals.kicad_sch</source>
@@ -136,7 +138,7 @@
     <sheet number="5" name="/Project Architecture/Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/87ec52b1-2e4e-4bae-bd8b-72c5c03421b9/">
       <title_block>
         <title>Connectors</title>
-        <company>Kampis-Elektroecke</company>
+        <company>PyroVision</company>
         <rev>1</rev>
         <date>2025-12-19</date>
         <source>Display.kicad_sch</source>
@@ -154,7 +156,7 @@
     <sheet number="6" name="/Revision History/" tstamps="/6e125bd6-2f99-4e5d-b3ea-4899f4540739/">
       <title_block>
         <title>Template</title>
-        <company>Kampis-Elektroecke</company>
+        <company>PyroVision</company>
         <rev>1</rev>
         <date>2025-12-19</date>
         <source>Revision History.kicad_sch</source>
@@ -171,7 +173,7 @@
     </sheet>
   </design>
   <components>
-    <comp ref="C1101">
+    <comp ref="C401">
       <value>100n</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>https://datasheets.kyocera-avx.com/X7RDielectric.pdf</datasheet>
@@ -197,7 +199,7 @@
       <sheetpath names="/Project Architecture/Peripherals/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/dbb3c4fe-7c18-4870-94de-cd2c1d2e23a1/"/>
       <tstamps>cb1d0744-ed83-4a70-95d5-79fc56d4d491</tstamps>
     </comp>
-    <comp ref="C1102">
+    <comp ref="C402">
       <value>100n</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>https://datasheets.kyocera-avx.com/X7RDielectric.pdf</datasheet>
@@ -223,7 +225,7 @@
       <sheetpath names="/Project Architecture/Peripherals/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/dbb3c4fe-7c18-4870-94de-cd2c1d2e23a1/"/>
       <tstamps>2a800ec2-3660-4619-9c95-cd7d59e9bac2</tstamps>
     </comp>
-    <comp ref="D1101">
+    <comp ref="D401">
       <value>STATUS</value>
       <footprint>LED_SMD:LED_ASMB-KTF0-0A306</footprint>
       <datasheet>https://4donline.ihs.com/images/VipMasterIC/IC/AVGO/AVGO-S-A0004511384/AVGO-S-A0004511384-1.pdf?hkey=CECEF36DEECDED6468708AAF2E19C0C6</datasheet>
@@ -249,7 +251,7 @@
       <sheetpath names="/Project Architecture/Peripherals/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/dbb3c4fe-7c18-4870-94de-cd2c1d2e23a1/"/>
       <tstamps>6ac8f01e-78ac-48fa-9ef6-92c6e0677e93</tstamps>
     </comp>
-    <comp ref="IC1101">
+    <comp ref="IC401">
       <value>PCAL6416AHF</value>
       <footprint>Package_DFN_QFN:HVQFN-24-1EP_4x4mm_P0.5mm_EP2.1x2.1mm</footprint>
       <datasheet>https://www.nxp.com/docs/en/data-sheet/PCAL6416A.pdf</datasheet>
@@ -275,7 +277,7 @@
       <sheetpath names="/Project Architecture/Peripherals/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/dbb3c4fe-7c18-4870-94de-cd2c1d2e23a1/"/>
       <tstamps>cf88ae04-9f86-4937-95fc-308d288858bb</tstamps>
     </comp>
-    <comp ref="R1101">
+    <comp ref="R401">
       <value>100k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <datasheet>https://www.mouser.de/datasheet/2/54/cr-1858361.pdf</datasheet>
@@ -301,7 +303,33 @@
       <sheetpath names="/Project Architecture/Peripherals/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/dbb3c4fe-7c18-4870-94de-cd2c1d2e23a1/"/>
       <tstamps>cb469ff7-0296-42b0-b974-34dc0a66f945</tstamps>
     </comp>
-    <comp ref="R1103">
+    <comp ref="R402">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/54/cr-1858361.pdf</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="CONFIG"/>
+        <field name="manf">Bourns</field>
+        <field name="manf#">CR0805-JW-103ELF</field>
+        <field name="mouser#">652-CR0805-JW-103ELF</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet">https://www.mouser.de/datasheet/2/54/cr-1858361.pdf</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="CONFIG" value=""/>
+      <property name="manf" value="Bourns"/>
+      <property name="manf#" value="CR0805-JW-103ELF"/>
+      <property name="mouser#" value="652-CR0805-JW-103ELF"/>
+      <property name="Sheetname" value="Peripherals"/>
+      <property name="Sheetfile" value="Peripherals.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Project Architecture/Peripherals/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/dbb3c4fe-7c18-4870-94de-cd2c1d2e23a1/"/>
+      <tstamps>b755e60a-b124-423d-8bd4-2909f0eab984</tstamps>
+    </comp>
+    <comp ref="R403">
       <value>1k3</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <datasheet>https://eu.mouser.com/datasheet/3/40/1/cr.pdf</datasheet>
@@ -327,7 +355,7 @@
       <sheetpath names="/Project Architecture/Peripherals/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/dbb3c4fe-7c18-4870-94de-cd2c1d2e23a1/"/>
       <tstamps>97ea2bb6-f339-4434-ae4e-16fbb6f1ac4f</tstamps>
     </comp>
-    <comp ref="R1104">
+    <comp ref="R404">
       <value>330R</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <datasheet>https://www.mouser.de/datasheet/3/40/1/cr.pdf</datasheet>
@@ -353,7 +381,7 @@
       <sheetpath names="/Project Architecture/Peripherals/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/dbb3c4fe-7c18-4870-94de-cd2c1d2e23a1/"/>
       <tstamps>dcd7c3b7-e371-48d7-92fc-4070e1c20aa9</tstamps>
     </comp>
-    <comp ref="R1105">
+    <comp ref="R405">
       <value>470R</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <datasheet>https://www.mouser.de/datasheet/3/40/1/cr.pdf</datasheet>
@@ -379,7 +407,7 @@
       <sheetpath names="/Project Architecture/Peripherals/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/dbb3c4fe-7c18-4870-94de-cd2c1d2e23a1/"/>
       <tstamps>51c196b4-8e79-4565-aaa8-3bf7f4a0d704</tstamps>
     </comp>
-    <comp ref="S1101">
+    <comp ref="S401">
       <value>JS1400</value>
       <footprint>E-Switch:JS1400BVQ</footprint>
       <datasheet>https://configured-product-images.s3.amazonaws.com/2D/specs/JS1400BVQ.pdf</datasheet>
@@ -403,7 +431,7 @@
       <sheetpath names="/Project Architecture/Peripherals/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/dbb3c4fe-7c18-4870-94de-cd2c1d2e23a1/"/>
       <tstamps>d1249616-f9db-47af-b24a-d0c00ec31883</tstamps>
     </comp>
-    <comp ref="SW1101">
+    <comp ref="SW401">
       <value>Button 1</value>
       <footprint>Wuerth:WS-TASV-6x6</footprint>
       <datasheet>https://www.we-online.com/components/products/datasheet/430182095816.pdf</datasheet>
@@ -429,7 +457,7 @@
       <sheetpath names="/Project Architecture/Peripherals/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/dbb3c4fe-7c18-4870-94de-cd2c1d2e23a1/"/>
       <tstamps>29fa0a1d-b478-4a83-be2e-91444483d31f</tstamps>
     </comp>
-    <comp ref="SW1102">
+    <comp ref="SW402">
       <value>Button 2</value>
       <footprint>Wuerth:WS-TASV-6x6</footprint>
       <datasheet>https://www.we-online.com/components/products/datasheet/430182095816.pdf</datasheet>
@@ -455,7 +483,7 @@
       <sheetpath names="/Project Architecture/Peripherals/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/dbb3c4fe-7c18-4870-94de-cd2c1d2e23a1/"/>
       <tstamps>6a852963-499f-440e-ab33-5c88eca273be</tstamps>
     </comp>
-    <comp ref="SW1103">
+    <comp ref="SW403">
       <value>Button 3</value>
       <footprint>Wuerth:WS-TASV-6x6</footprint>
       <datasheet>https://www.we-online.com/components/products/datasheet/430182095816.pdf</datasheet>
@@ -481,7 +509,7 @@
       <sheetpath names="/Project Architecture/Peripherals/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/dbb3c4fe-7c18-4870-94de-cd2c1d2e23a1/"/>
       <tstamps>6586f04d-dcbe-434d-9126-f6a0af348965</tstamps>
     </comp>
-    <comp ref="SW1104">
+    <comp ref="SW404">
       <value>Button 4</value>
       <footprint>Wuerth:WS-TASV-6x6</footprint>
       <datasheet>https://www.we-online.com/components/products/datasheet/430182095816.pdf</datasheet>
@@ -507,7 +535,7 @@
       <sheetpath names="/Project Architecture/Peripherals/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/dbb3c4fe-7c18-4870-94de-cd2c1d2e23a1/"/>
       <tstamps>aaa88220-b6f2-4896-bd33-d45cee32e3b0</tstamps>
     </comp>
-    <comp ref="Q1401">
+    <comp ref="Q501">
       <value>NPN</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://assets.nexperia.com/documents/data-sheet/BC817W_SER.pdf</datasheet>
@@ -533,162 +561,7 @@
       <sheetpath names="/Project Architecture/Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/87ec52b1-2e4e-4bae-bd8b-72c5c03421b9/"/>
       <tstamps>54c18951-ccee-4f73-9fbf-5cf9940a0927</tstamps>
     </comp>
-    <comp ref="R1401">
-      <value>10k</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>https://www.mouser.de/datasheet/2/54/cr-1858361.pdf</datasheet>
-      <description>Resistor</description>
-      <fields>
-        <field name="CONFIG"/>
-        <field name="manf">Bourns</field>
-        <field name="manf#">CR0805-JW-103ELF</field>
-        <field name="mouser#">652-CR0805-JW-103ELF</field>
-        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">https://www.mouser.de/datasheet/2/54/cr-1858361.pdf</field>
-        <field name="Description">Resistor</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="CONFIG" value=""/>
-      <property name="manf" value="Bourns"/>
-      <property name="manf#" value="CR0805-JW-103ELF"/>
-      <property name="mouser#" value="652-CR0805-JW-103ELF"/>
-      <property name="Sheetname" value="Connectors"/>
-      <property name="Sheetfile" value="Display.kicad_sch"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/Project Architecture/Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/87ec52b1-2e4e-4bae-bd8b-72c5c03421b9/"/>
-      <tstamps>85a74843-01ad-4b14-8109-58a2dbdde180</tstamps>
-    </comp>
-    <comp ref="R1402">
-      <value>10k</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>https://www.mouser.de/datasheet/2/54/cr-1858361.pdf</datasheet>
-      <description>Resistor</description>
-      <fields>
-        <field name="CONFIG"/>
-        <field name="manf">Bourns</field>
-        <field name="manf#">CR0805-JW-103ELF</field>
-        <field name="mouser#">652-CR0805-JW-103ELF</field>
-        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">https://www.mouser.de/datasheet/2/54/cr-1858361.pdf</field>
-        <field name="Description">Resistor</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="CONFIG" value=""/>
-      <property name="manf" value="Bourns"/>
-      <property name="manf#" value="CR0805-JW-103ELF"/>
-      <property name="mouser#" value="652-CR0805-JW-103ELF"/>
-      <property name="Sheetname" value="Connectors"/>
-      <property name="Sheetfile" value="Display.kicad_sch"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/Project Architecture/Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/87ec52b1-2e4e-4bae-bd8b-72c5c03421b9/"/>
-      <tstamps>4cf0804b-d8e5-4619-8794-acdfded4329a</tstamps>
-    </comp>
-    <comp ref="R1403">
-      <value>10k</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>https://www.mouser.de/datasheet/2/54/cr-1858361.pdf</datasheet>
-      <description>Resistor</description>
-      <fields>
-        <field name="CONFIG"/>
-        <field name="manf">Bourns</field>
-        <field name="manf#">CR0805-JW-103ELF</field>
-        <field name="mouser#">652-CR0805-JW-103ELF</field>
-        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">https://www.mouser.de/datasheet/2/54/cr-1858361.pdf</field>
-        <field name="Description">Resistor</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="CONFIG" value=""/>
-      <property name="manf" value="Bourns"/>
-      <property name="manf#" value="CR0805-JW-103ELF"/>
-      <property name="mouser#" value="652-CR0805-JW-103ELF"/>
-      <property name="Sheetname" value="Connectors"/>
-      <property name="Sheetfile" value="Display.kicad_sch"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/Project Architecture/Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/87ec52b1-2e4e-4bae-bd8b-72c5c03421b9/"/>
-      <tstamps>f6e2953d-0c37-417e-88fc-5d98928216d2</tstamps>
-    </comp>
-    <comp ref="R1404">
-      <value>10R</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <description>Resistor</description>
-      <fields>
-        <field name="CONFIG"/>
-        <field name="manf"/>
-        <field name="manf#"/>
-        <field name="mouser#"/>
-        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet"/>
-        <field name="Description">Resistor</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="CONFIG" value=""/>
-      <property name="manf" value=""/>
-      <property name="manf#" value=""/>
-      <property name="mouser#" value=""/>
-      <property name="Sheetname" value="Connectors"/>
-      <property name="Sheetfile" value="Display.kicad_sch"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/Project Architecture/Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/87ec52b1-2e4e-4bae-bd8b-72c5c03421b9/"/>
-      <tstamps>ff58e904-0672-4cc1-bcb3-4d0c9b0e088a</tstamps>
-    </comp>
-    <comp ref="R1405">
-      <value>100k</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>https://www.mouser.de/datasheet/2/54/cr-1858361.pdf</datasheet>
-      <description>Resistor</description>
-      <fields>
-        <field name="CONFIG"/>
-        <field name="manf">Bourns</field>
-        <field name="manf#">CR0805-JW-104ELF</field>
-        <field name="mouser#">652-CR0805-JW-104ELF</field>
-        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">https://www.mouser.de/datasheet/2/54/cr-1858361.pdf</field>
-        <field name="Description">Resistor</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="CONFIG" value=""/>
-      <property name="manf" value="Bourns"/>
-      <property name="manf#" value="CR0805-JW-104ELF"/>
-      <property name="mouser#" value="652-CR0805-JW-104ELF"/>
-      <property name="Sheetname" value="Connectors"/>
-      <property name="Sheetfile" value="Display.kicad_sch"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/Project Architecture/Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/87ec52b1-2e4e-4bae-bd8b-72c5c03421b9/"/>
-      <tstamps>8f587bb5-5310-44ff-8ac1-e82d93627f65</tstamps>
-    </comp>
-    <comp ref="R1406">
-      <value>100R</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>https://eu.mouser.com/datasheet/3/40/1/cr.pdf</datasheet>
-      <description>Resistor</description>
-      <fields>
-        <field name="CONFIG"/>
-        <field name="manf">Bourns</field>
-        <field name="manf#">CR0805-JW-101ELF</field>
-        <field name="mouser#">652-CR0805-JW-101ELF</field>
-        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">https://eu.mouser.com/datasheet/3/40/1/cr.pdf</field>
-        <field name="Description">Resistor</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="CONFIG" value=""/>
-      <property name="manf" value="Bourns"/>
-      <property name="manf#" value="CR0805-JW-101ELF"/>
-      <property name="mouser#" value="652-CR0805-JW-101ELF"/>
-      <property name="Sheetname" value="Connectors"/>
-      <property name="Sheetfile" value="Display.kicad_sch"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/Project Architecture/Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/87ec52b1-2e4e-4bae-bd8b-72c5c03421b9/"/>
-      <tstamps>8e6644fb-8f72-4e57-8aed-579607e2bb7a</tstamps>
-    </comp>
-    <comp ref="R1407">
+    <comp ref="R501">
       <value>0R</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <description>Resistor</description>
@@ -715,16 +588,41 @@
       <sheetpath names="/Project Architecture/Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/87ec52b1-2e4e-4bae-bd8b-72c5c03421b9/"/>
       <tstamps>f6a5e21b-a1f7-4dda-9dd6-795d98074b79</tstamps>
     </comp>
-    <comp ref="R1408">
-      <value>10k</value>
+    <comp ref="R502">
+      <value>10R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="CONFIG"/>
+        <field name="manf"/>
+        <field name="manf#"/>
+        <field name="mouser#"/>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="CONFIG" value=""/>
+      <property name="manf" value=""/>
+      <property name="manf#" value=""/>
+      <property name="mouser#" value=""/>
+      <property name="Sheetname" value="Connectors"/>
+      <property name="Sheetfile" value="Display.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Project Architecture/Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/87ec52b1-2e4e-4bae-bd8b-72c5c03421b9/"/>
+      <tstamps>ff58e904-0672-4cc1-bcb3-4d0c9b0e088a</tstamps>
+    </comp>
+    <comp ref="R503">
+      <value>100k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <datasheet>https://www.mouser.de/datasheet/2/54/cr-1858361.pdf</datasheet>
       <description>Resistor</description>
       <fields>
         <field name="CONFIG"/>
         <field name="manf">Bourns</field>
-        <field name="manf#">CR0805-JW-103ELF</field>
-        <field name="mouser#">652-CR0805-JW-103ELF</field>
+        <field name="manf#">CR0805-JW-104ELF</field>
+        <field name="mouser#">652-CR0805-JW-104ELF</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet">https://www.mouser.de/datasheet/2/54/cr-1858361.pdf</field>
         <field name="Description">Resistor</field>
@@ -732,94 +630,42 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="CONFIG" value=""/>
       <property name="manf" value="Bourns"/>
-      <property name="manf#" value="CR0805-JW-103ELF"/>
-      <property name="mouser#" value="652-CR0805-JW-103ELF"/>
+      <property name="manf#" value="CR0805-JW-104ELF"/>
+      <property name="mouser#" value="652-CR0805-JW-104ELF"/>
       <property name="Sheetname" value="Connectors"/>
       <property name="Sheetfile" value="Display.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Project Architecture/Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/87ec52b1-2e4e-4bae-bd8b-72c5c03421b9/"/>
-      <tstamps>2e1814ae-04a2-4c9d-b291-81787865b8eb</tstamps>
+      <tstamps>8f587bb5-5310-44ff-8ac1-e82d93627f65</tstamps>
     </comp>
-    <comp ref="R1409">
-      <value>3k3</value>
+    <comp ref="R504">
+      <value>100R</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>https://www.mouser.de/datasheet/2/54/cr-1858361.pdf</datasheet>
+      <datasheet>https://eu.mouser.com/datasheet/3/40/1/cr.pdf</datasheet>
       <description>Resistor</description>
       <fields>
         <field name="CONFIG"/>
         <field name="manf">Bourns</field>
-        <field name="manf#">CR0805-JW-332ELF</field>
-        <field name="mouser#">652-CR0805-JW-332ELF</field>
+        <field name="manf#">CR0805-JW-101ELF</field>
+        <field name="mouser#">652-CR0805-JW-101ELF</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">https://www.mouser.de/datasheet/2/54/cr-1858361.pdf</field>
+        <field name="Datasheet">https://eu.mouser.com/datasheet/3/40/1/cr.pdf</field>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="CONFIG" value=""/>
       <property name="manf" value="Bourns"/>
-      <property name="manf#" value="CR0805-JW-332ELF"/>
-      <property name="mouser#" value="652-CR0805-JW-332ELF"/>
+      <property name="manf#" value="CR0805-JW-101ELF"/>
+      <property name="mouser#" value="652-CR0805-JW-101ELF"/>
       <property name="Sheetname" value="Connectors"/>
       <property name="Sheetfile" value="Display.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Project Architecture/Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/87ec52b1-2e4e-4bae-bd8b-72c5c03421b9/"/>
-      <tstamps>33cf119a-22d9-40d2-a776-ef479c4131a8</tstamps>
+      <tstamps>8e6644fb-8f72-4e57-8aed-579607e2bb7a</tstamps>
     </comp>
-    <comp ref="R1410">
-      <value>3k3</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>https://www.mouser.de/datasheet/2/54/cr-1858361.pdf</datasheet>
-      <description>Resistor</description>
-      <fields>
-        <field name="CONFIG"/>
-        <field name="manf">Bourns</field>
-        <field name="manf#">CR0805-JW-332ELF</field>
-        <field name="mouser#">652-CR0805-JW-332ELF</field>
-        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">https://www.mouser.de/datasheet/2/54/cr-1858361.pdf</field>
-        <field name="Description">Resistor</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="CONFIG" value=""/>
-      <property name="manf" value="Bourns"/>
-      <property name="manf#" value="CR0805-JW-332ELF"/>
-      <property name="mouser#" value="652-CR0805-JW-332ELF"/>
-      <property name="Sheetname" value="Connectors"/>
-      <property name="Sheetfile" value="Display.kicad_sch"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/Project Architecture/Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/87ec52b1-2e4e-4bae-bd8b-72c5c03421b9/"/>
-      <tstamps>5dfd312f-7e52-40db-b526-e38c0c8a6c4e</tstamps>
-    </comp>
-    <comp ref="R1411">
-      <value>10k</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>https://www.mouser.de/datasheet/2/54/cr-1858361.pdf</datasheet>
-      <description>Resistor</description>
-      <fields>
-        <field name="CONFIG"/>
-        <field name="manf">Bourns</field>
-        <field name="manf#">CR0805-JW-103ELF</field>
-        <field name="mouser#">652-CR0805-JW-103ELF</field>
-        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">https://www.mouser.de/datasheet/2/54/cr-1858361.pdf</field>
-        <field name="Description">Resistor</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="CONFIG" value=""/>
-      <property name="manf" value="Bourns"/>
-      <property name="manf#" value="CR0805-JW-103ELF"/>
-      <property name="mouser#" value="652-CR0805-JW-103ELF"/>
-      <property name="Sheetname" value="Connectors"/>
-      <property name="Sheetfile" value="Display.kicad_sch"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/Project Architecture/Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/87ec52b1-2e4e-4bae-bd8b-72c5c03421b9/"/>
-      <tstamps>c4571df4-38b0-4f82-8333-34f8962087aa</tstamps>
-    </comp>
-    <comp ref="X1401">
+    <comp ref="X501">
       <value>Touch</value>
       <footprint>Connector_FFC-FPC:Amphenol_F32R-1A7x1-11006_1x06-1MP_P0.5mm_Horizontal</footprint>
       <datasheet>~</datasheet>
@@ -845,7 +691,7 @@
       <sheetpath names="/Project Architecture/Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/87ec52b1-2e4e-4bae-bd8b-72c5c03421b9/"/>
       <tstamps>f6af2ffa-4d9e-494e-bf48-914afe1424dc</tstamps>
     </comp>
-    <comp ref="X1402">
+    <comp ref="X502">
       <value>Display</value>
       <footprint>Connector_FFC-FPC:TE_1-84952-8_1x18-1MP_P1.0mm_Horizontal</footprint>
       <datasheet>~</datasheet>
@@ -871,31 +717,31 @@
       <sheetpath names="/Project Architecture/Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/87ec52b1-2e4e-4bae-bd8b-72c5c03421b9/"/>
       <tstamps>782aa082-8030-437a-be81-17f0cb20e285</tstamps>
     </comp>
-    <comp ref="X1403">
-      <value>External</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical</footprint>
-      <datasheet>~</datasheet>
-      <description>Generic connector, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+    <comp ref="X503">
+      <value>Mainboard</value>
+      <footprint>Connector_FFC-FPC:Amphenol_F32R-1A7x1-11014_1x14-1MP_P0.5mm_Horizontal</footprint>
+      <datasheet>https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/f32r-f32j.pdf</datasheet>
+      <description>Generic connectable mounting pin connector, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
       <fields>
-        <field name="manf"/>
-        <field name="manf#"/>
-        <field name="mouser#"/>
+        <field name="manf">Amphenol Aorora</field>
+        <field name="manf#">F32R-1A7H1-11014</field>
+        <field name="mouser#">649-F32R-1A7H1-11014</field>
         <field name="CONFIG"/>
-        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Generic connector, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+        <field name="Footprint">Connector_FFC-FPC:Amphenol_F32R-1A7x1-11014_1x14-1MP_P0.5mm_Horizontal</field>
+        <field name="Datasheet">https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/f32r-f32j.pdf</field>
+        <field name="Description">Generic connectable mounting pin connector, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
       </fields>
-      <libsource lib="Connector_Generic" part="Conn_01x14" description="Generic connector, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="manf" value=""/>
-      <property name="manf#" value=""/>
-      <property name="mouser#" value=""/>
+      <libsource lib="Connector_Generic_MountingPin" part="Conn_01x14_MountingPin" description="Generic connectable mounting pin connector, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="manf" value="Amphenol Aorora"/>
+      <property name="manf#" value="F32R-1A7H1-11014"/>
+      <property name="mouser#" value="649-F32R-1A7H1-11014"/>
       <property name="CONFIG" value=""/>
       <property name="Sheetname" value="Connectors"/>
       <property name="Sheetfile" value="Display.kicad_sch"/>
       <property name="ki_keywords" value="connector"/>
-      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??-1MP*"/>
       <sheetpath names="/Project Architecture/Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/87ec52b1-2e4e-4bae-bd8b-72c5c03421b9/"/>
-      <tstamps>0ec275fb-ccc6-4f38-b200-eab7ff3eb88a</tstamps>
+      <tstamps>ed47339b-ca89-47b5-97bd-c49f9e832e61</tstamps>
     </comp>
   </components>
   <libparts>
@@ -919,36 +765,6 @@
         <pin num="4" name="Pin_4" type="passive"/>
         <pin num="5" name="Pin_5" type="passive"/>
         <pin num="6" name="Pin_6" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Connector_Generic" part="Conn_01x14">
-      <description>Generic connector, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>Connector*:*_1x??_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">Conn_01x14</field>
-        <field name="Footprint"/>
-        <field name="Datasheet">~</field>
-        <field name="Description">Generic connector, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
-      </fields>
-      <pins>
-        <pin num="1" name="Pin_1" type="passive"/>
-        <pin num="2" name="Pin_2" type="passive"/>
-        <pin num="3" name="Pin_3" type="passive"/>
-        <pin num="4" name="Pin_4" type="passive"/>
-        <pin num="5" name="Pin_5" type="passive"/>
-        <pin num="6" name="Pin_6" type="passive"/>
-        <pin num="7" name="Pin_7" type="passive"/>
-        <pin num="8" name="Pin_8" type="passive"/>
-        <pin num="9" name="Pin_9" type="passive"/>
-        <pin num="10" name="Pin_10" type="passive"/>
-        <pin num="11" name="Pin_11" type="passive"/>
-        <pin num="12" name="Pin_12" type="passive"/>
-        <pin num="13" name="Pin_13" type="passive"/>
-        <pin num="14" name="Pin_14" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Connector_Generic" part="Conn_01x18">
@@ -983,6 +799,37 @@
         <pin num="16" name="Pin_16" type="passive"/>
         <pin num="17" name="Pin_17" type="passive"/>
         <pin num="18" name="Pin_18" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic_MountingPin" part="Conn_01x14_MountingPin">
+      <description>Generic connectable mounting pin connector, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??-1MP*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x14_MountingPin</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connectable mounting pin connector, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="MP" name="MountPin" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Device" part="C">
@@ -1146,6 +993,9 @@
     <library logical="Connector_Generic">
       <uri>/usr/share/kicad/symbols//Connector_Generic.kicad_sym</uri>
     </library>
+    <library logical="Connector_Generic_MountingPin">
+      <uri>/usr/share/kicad/symbols//Connector_Generic_MountingPin.kicad_sym</uri>
+    </library>
     <library logical="Device">
       <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
     </library>
@@ -1158,214 +1008,203 @@
   </libraries>
   <nets>
     <net code="1" name="+3V3" class="Default">
-      <node ref="C1102" pin="1" pintype="passive"/>
-      <node ref="D1101" pin="1" pinfunction="A" pintype="passive"/>
-      <node ref="IC1101" pin="18" pinfunction="ADDR" pintype="input"/>
-      <node ref="IC1101" pin="21" pinfunction="V_{DD(P)}" pintype="power_in"/>
-      <node ref="IC1101" pin="23" pinfunction="V_{DD(I2C-bus)}" pintype="power_in"/>
-      <node ref="R1101" pin="2" pintype="passive"/>
-      <node ref="R1401" pin="2" pintype="passive"/>
-      <node ref="R1402" pin="2" pintype="passive"/>
-      <node ref="R1403" pin="2" pintype="passive"/>
-      <node ref="R1408" pin="2" pintype="passive"/>
-      <node ref="R1409" pin="2" pintype="passive"/>
-      <node ref="R1410" pin="2" pintype="passive"/>
-      <node ref="R1411" pin="2" pintype="passive"/>
-      <node ref="S1101" pin="5" pintype="passive"/>
-      <node ref="SW1101" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="SW1101" pin="4" pinfunction="4" pintype="passive"/>
-      <node ref="SW1102" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="SW1102" pin="4" pinfunction="4" pintype="passive"/>
-      <node ref="SW1103" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="SW1103" pin="4" pinfunction="4" pintype="passive"/>
-      <node ref="SW1104" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="SW1104" pin="4" pinfunction="4" pintype="passive"/>
-      <node ref="X1401" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="X1402" pin="10" pinfunction="Pin_10" pintype="passive"/>
-      <node ref="X1402" pin="9" pinfunction="Pin_9" pintype="passive"/>
-      <node ref="X1403" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="C402" pin="1" pintype="passive"/>
+      <node ref="D401" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="IC401" pin="18" pinfunction="ADDR" pintype="input"/>
+      <node ref="IC401" pin="21" pinfunction="V_{DD(P)}" pintype="power_in"/>
+      <node ref="IC401" pin="23" pinfunction="V_{DD(I2C-bus)}" pintype="power_in"/>
+      <node ref="R401" pin="2" pintype="passive"/>
+      <node ref="R402" pin="2" pintype="passive"/>
+      <node ref="S401" pin="5" pintype="passive"/>
+      <node ref="SW401" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW401" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="SW402" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW402" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="SW403" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW403" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="SW404" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW404" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="X501" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="X502" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="X502" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="X503" pin="1" pinfunction="Pin_1" pintype="passive"/>
     </net>
     <net code="2" name="/Project Architecture/Connectors/Display-Backlight" class="Default">
-      <node ref="R1406" pin="1" pintype="passive"/>
-      <node ref="X1403" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="R504" pin="1" pintype="passive"/>
+      <node ref="X503" pin="14" pinfunction="Pin_14" pintype="passive"/>
     </net>
     <net code="3" name="/Project Architecture/Connectors/Display-DC" class="Default">
-      <node ref="X1402" pin="15" pinfunction="Pin_15" pintype="passive"/>
-      <node ref="X1403" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="X502" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="X503" pin="10" pinfunction="Pin_10" pintype="passive"/>
     </net>
     <net code="4" name="/Project Architecture/Connectors/I2C-SCL" class="Default">
-      <node ref="IC1101" pin="19" pinfunction="SCL" pintype="input"/>
-      <node ref="R1410" pin="1" pintype="passive"/>
-      <node ref="X1401" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="X1403" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="IC401" pin="19" pinfunction="SCL" pintype="input"/>
+      <node ref="X501" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="X503" pin="6" pinfunction="Pin_6" pintype="passive"/>
     </net>
     <net code="5" name="/Project Architecture/Connectors/I2C-SDA" class="Default">
-      <node ref="IC1101" pin="20" pinfunction="SDA" pintype="bidirectional"/>
-      <node ref="R1409" pin="1" pintype="passive"/>
-      <node ref="X1401" pin="3" pinfunction="Pin_3" pintype="passive"/>
-      <node ref="X1403" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="IC401" pin="20" pinfunction="SDA" pintype="bidirectional"/>
+      <node ref="X501" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="X503" pin="5" pinfunction="Pin_5" pintype="passive"/>
     </net>
     <net code="6" name="/Project Architecture/Connectors/SPI-MISO" class="Default">
-      <node ref="R1407" pin="1" pintype="passive"/>
-      <node ref="X1403" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="R501" pin="1" pintype="passive"/>
+      <node ref="X503" pin="13" pinfunction="Pin_13" pintype="passive"/>
     </net>
     <net code="7" name="/Project Architecture/Connectors/SPI-MOSI" class="Default">
-      <node ref="X1402" pin="13" pinfunction="Pin_13" pintype="passive"/>
-      <node ref="X1403" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="X502" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="X503" pin="12" pinfunction="Pin_12" pintype="passive"/>
     </net>
     <net code="8" name="/Project Architecture/Connectors/SPI-SCLK" class="Default">
-      <node ref="X1402" pin="16" pinfunction="Pin_16" pintype="passive"/>
-      <node ref="X1403" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="X502" pin="16" pinfunction="Pin_16" pintype="passive"/>
+      <node ref="X503" pin="9" pinfunction="Pin_9" pintype="passive"/>
     </net>
     <net code="9" name="/Project Architecture/Connectors/~{Display-CS}" class="Default">
-      <node ref="R1402" pin="1" pintype="passive"/>
-      <node ref="X1402" pin="14" pinfunction="Pin_14" pintype="passive"/>
-      <node ref="X1403" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="X502" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="X503" pin="11" pinfunction="Pin_11" pintype="passive"/>
     </net>
     <net code="10" name="/Project Architecture/Connectors/~{Display-Reset}" class="Default">
-      <node ref="R1408" pin="1" pintype="passive"/>
-      <node ref="X1402" pin="17" pinfunction="Pin_17" pintype="passive"/>
-      <node ref="X1403" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="X502" pin="17" pinfunction="Pin_17" pintype="passive"/>
+      <node ref="X503" pin="8" pinfunction="Pin_8" pintype="passive"/>
     </net>
     <net code="11" name="/Project Architecture/Connectors/~{Expander-INT}" class="Default">
-      <node ref="IC1101" pin="22" pinfunction="~{INT}" pintype="open_collector"/>
-      <node ref="R1411" pin="1" pintype="passive"/>
-      <node ref="X1403" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="IC401" pin="22" pinfunction="~{INT}" pintype="open_collector"/>
+      <node ref="R402" pin="1" pintype="passive"/>
+      <node ref="X503" pin="7" pinfunction="Pin_7" pintype="passive"/>
     </net>
     <net code="12" name="/Project Architecture/Connectors/~{Touch-IRQ}" class="Default">
-      <node ref="R1403" pin="1" pintype="passive"/>
-      <node ref="X1401" pin="4" pinfunction="Pin_4" pintype="passive"/>
-      <node ref="X1403" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="X501" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="X503" pin="4" pinfunction="Pin_4" pintype="passive"/>
     </net>
     <net code="13" name="/Project Architecture/Connectors/~{Touch-Reset}" class="Default">
-      <node ref="R1401" pin="1" pintype="passive"/>
-      <node ref="X1401" pin="5" pinfunction="Pin_5" pintype="passive"/>
-      <node ref="X1403" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="X501" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="X503" pin="3" pinfunction="Pin_3" pintype="passive"/>
     </net>
     <net code="14" name="GND" class="Default">
-      <node ref="C1101" pin="2" pintype="passive"/>
-      <node ref="C1102" pin="2" pintype="passive"/>
-      <node ref="IC1101" pin="25" pinfunction="EP" pintype="passive"/>
-      <node ref="IC1101" pin="9" pinfunction="V_{SS}" pintype="power_in"/>
-      <node ref="Q1401" pin="2" pinfunction="E" pintype="passive"/>
-      <node ref="R1405" pin="1" pintype="passive"/>
-      <node ref="X1401" pin="6" pinfunction="Pin_6" pintype="passive"/>
-      <node ref="X1402" pin="11" pinfunction="Pin_11" pintype="passive"/>
-      <node ref="X1402" pin="18" pinfunction="Pin_18" pintype="passive"/>
-      <node ref="X1403" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="C401" pin="2" pintype="passive"/>
+      <node ref="C402" pin="2" pintype="passive"/>
+      <node ref="IC401" pin="25" pinfunction="EP" pintype="passive"/>
+      <node ref="IC401" pin="9" pinfunction="V_{SS}" pintype="power_in"/>
+      <node ref="Q501" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="R503" pin="1" pintype="passive"/>
+      <node ref="X501" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="X502" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="X502" pin="18" pinfunction="Pin_18" pintype="passive"/>
+      <node ref="X503" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="X503" pin="MP" pinfunction="MountPin" pintype="passive"/>
     </net>
-    <net code="15" name="Net-(D1101-BK)" class="Default">
-      <node ref="D1101" pin="2" pinfunction="BK" pintype="passive"/>
-      <node ref="R1105" pin="1" pintype="passive"/>
+    <net code="15" name="Net-(D401-BK)" class="Default">
+      <node ref="D401" pin="2" pinfunction="BK" pintype="passive"/>
+      <node ref="R405" pin="1" pintype="passive"/>
     </net>
-    <net code="16" name="Net-(D1101-GK)" class="Default">
-      <node ref="D1101" pin="3" pinfunction="GK" pintype="passive"/>
-      <node ref="R1104" pin="1" pintype="passive"/>
+    <net code="16" name="Net-(D401-GK)" class="Default">
+      <node ref="D401" pin="3" pinfunction="GK" pintype="passive"/>
+      <node ref="R404" pin="1" pintype="passive"/>
     </net>
-    <net code="17" name="Net-(D1101-RK)" class="Default">
-      <node ref="D1101" pin="4" pinfunction="RK" pintype="passive"/>
-      <node ref="R1103" pin="1" pintype="passive"/>
+    <net code="17" name="Net-(D401-RK)" class="Default">
+      <node ref="D401" pin="4" pinfunction="RK" pintype="passive"/>
+      <node ref="R403" pin="1" pintype="passive"/>
     </net>
-    <net code="18" name="Net-(IC1101-P0_0)" class="Default">
-      <node ref="IC1101" pin="1" pinfunction="P0_0" pintype="bidirectional"/>
-      <node ref="R1105" pin="2" pintype="passive"/>
+    <net code="18" name="Net-(IC401-P0_0)" class="Default">
+      <node ref="IC401" pin="1" pinfunction="P0_0" pintype="bidirectional"/>
+      <node ref="R405" pin="2" pintype="passive"/>
     </net>
-    <net code="19" name="Net-(IC1101-P0_1)" class="Default">
-      <node ref="IC1101" pin="2" pinfunction="P0_1" pintype="bidirectional"/>
-      <node ref="R1104" pin="2" pintype="passive"/>
+    <net code="19" name="Net-(IC401-P0_1)" class="Default">
+      <node ref="IC401" pin="2" pinfunction="P0_1" pintype="bidirectional"/>
+      <node ref="R404" pin="2" pintype="passive"/>
     </net>
-    <net code="20" name="Net-(IC1101-P0_2)" class="Default">
-      <node ref="IC1101" pin="3" pinfunction="P0_2" pintype="bidirectional"/>
-      <node ref="R1103" pin="2" pintype="passive"/>
+    <net code="20" name="Net-(IC401-P0_2)" class="Default">
+      <node ref="IC401" pin="3" pinfunction="P0_2" pintype="bidirectional"/>
+      <node ref="R403" pin="2" pintype="passive"/>
     </net>
-    <net code="21" name="Net-(IC1101-P0_3)" class="Default">
-      <node ref="IC1101" pin="4" pinfunction="P0_3" pintype="bidirectional"/>
-      <node ref="S1101" pin="1" pintype="passive"/>
+    <net code="21" name="Net-(IC401-P0_3)" class="Default">
+      <node ref="IC401" pin="4" pinfunction="P0_3" pintype="bidirectional"/>
+      <node ref="S401" pin="1" pintype="passive"/>
     </net>
-    <net code="22" name="Net-(IC1101-P0_4)" class="Default">
-      <node ref="IC1101" pin="5" pinfunction="P0_4" pintype="bidirectional"/>
-      <node ref="S1101" pin="2" pintype="passive"/>
+    <net code="22" name="Net-(IC401-P0_4)" class="Default">
+      <node ref="IC401" pin="5" pinfunction="P0_4" pintype="bidirectional"/>
+      <node ref="S401" pin="2" pintype="passive"/>
     </net>
-    <net code="23" name="Net-(IC1101-P0_5)" class="Default">
-      <node ref="IC1101" pin="6" pinfunction="P0_5" pintype="bidirectional"/>
-      <node ref="S1101" pin="3" pintype="passive"/>
+    <net code="23" name="Net-(IC401-P0_5)" class="Default">
+      <node ref="IC401" pin="6" pinfunction="P0_5" pintype="bidirectional"/>
+      <node ref="S401" pin="3" pintype="passive"/>
     </net>
-    <net code="24" name="Net-(IC1101-P0_6)" class="Default">
-      <node ref="IC1101" pin="7" pinfunction="P0_6" pintype="bidirectional"/>
-      <node ref="S1101" pin="4" pintype="passive"/>
+    <net code="24" name="Net-(IC401-P0_6)" class="Default">
+      <node ref="IC401" pin="7" pinfunction="P0_6" pintype="bidirectional"/>
+      <node ref="S401" pin="4" pintype="passive"/>
     </net>
-    <net code="25" name="Net-(IC1101-P0_7)" class="Default">
-      <node ref="IC1101" pin="8" pinfunction="P0_7" pintype="bidirectional"/>
-      <node ref="S1101" pin="6" pintype="passive"/>
+    <net code="25" name="Net-(IC401-P0_7)" class="Default">
+      <node ref="IC401" pin="8" pinfunction="P0_7" pintype="bidirectional"/>
+      <node ref="S401" pin="6" pintype="passive"/>
     </net>
-    <net code="26" name="Net-(IC1101-P1_0)" class="Default">
-      <node ref="IC1101" pin="10" pinfunction="P1_0" pintype="bidirectional"/>
-      <node ref="SW1104" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="SW1104" pin="3" pinfunction="3" pintype="passive"/>
+    <net code="26" name="Net-(IC401-P1_0)" class="Default">
+      <node ref="IC401" pin="10" pinfunction="P1_0" pintype="bidirectional"/>
+      <node ref="SW404" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW404" pin="3" pinfunction="3" pintype="passive"/>
     </net>
-    <net code="27" name="Net-(IC1101-P1_1)" class="Default">
-      <node ref="IC1101" pin="11" pinfunction="P1_1" pintype="bidirectional"/>
-      <node ref="SW1103" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="SW1103" pin="3" pinfunction="3" pintype="passive"/>
+    <net code="27" name="Net-(IC401-P1_1)" class="Default">
+      <node ref="IC401" pin="11" pinfunction="P1_1" pintype="bidirectional"/>
+      <node ref="SW403" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW403" pin="3" pinfunction="3" pintype="passive"/>
     </net>
-    <net code="28" name="Net-(IC1101-P1_2)" class="Default">
-      <node ref="IC1101" pin="12" pinfunction="P1_2" pintype="bidirectional"/>
-      <node ref="SW1102" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="SW1102" pin="3" pinfunction="3" pintype="passive"/>
+    <net code="28" name="Net-(IC401-P1_2)" class="Default">
+      <node ref="IC401" pin="12" pinfunction="P1_2" pintype="bidirectional"/>
+      <node ref="SW402" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW402" pin="3" pinfunction="3" pintype="passive"/>
     </net>
-    <net code="29" name="Net-(IC1101-P1_3)" class="Default">
-      <node ref="IC1101" pin="13" pinfunction="P1_3" pintype="bidirectional"/>
-      <node ref="SW1101" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="SW1101" pin="3" pinfunction="3" pintype="passive"/>
+    <net code="29" name="Net-(IC401-P1_3)" class="Default">
+      <node ref="IC401" pin="13" pinfunction="P1_3" pintype="bidirectional"/>
+      <node ref="SW401" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW401" pin="3" pinfunction="3" pintype="passive"/>
     </net>
-    <net code="30" name="Net-(IC1101-~{RESET})" class="Default">
-      <node ref="C1101" pin="1" pintype="passive"/>
-      <node ref="IC1101" pin="24" pinfunction="~{RESET}" pintype="input"/>
-      <node ref="R1101" pin="1" pintype="passive"/>
+    <net code="30" name="Net-(IC401-~{RESET})" class="Default">
+      <node ref="C401" pin="1" pintype="passive"/>
+      <node ref="IC401" pin="24" pinfunction="~{RESET}" pintype="input"/>
+      <node ref="R401" pin="1" pintype="passive"/>
     </net>
-    <net code="31" name="Net-(Q1401-B)" class="Default">
-      <node ref="Q1401" pin="1" pinfunction="B" pintype="input"/>
-      <node ref="R1405" pin="2" pintype="passive"/>
-      <node ref="R1406" pin="2" pintype="passive"/>
+    <net code="31" name="Net-(Q501-B)" class="Default">
+      <node ref="Q501" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R503" pin="2" pintype="passive"/>
+      <node ref="R504" pin="2" pintype="passive"/>
     </net>
-    <net code="32" name="Net-(Q1401-C)" class="Default">
-      <node ref="Q1401" pin="3" pinfunction="C" pintype="passive"/>
-      <node ref="R1404" pin="1" pintype="passive"/>
+    <net code="32" name="Net-(Q501-C)" class="Default">
+      <node ref="Q501" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R502" pin="1" pintype="passive"/>
     </net>
-    <net code="33" name="Net-(X1402-Pin_5)" class="Default">
-      <node ref="R1404" pin="2" pintype="passive"/>
-      <node ref="X1402" pin="5" pinfunction="Pin_5" pintype="passive"/>
-      <node ref="X1402" pin="6" pinfunction="Pin_6" pintype="passive"/>
-      <node ref="X1402" pin="7" pinfunction="Pin_7" pintype="passive"/>
-      <node ref="X1402" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    <net code="33" name="Net-(X502-Pin_5)" class="Default">
+      <node ref="R502" pin="2" pintype="passive"/>
+      <node ref="X502" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="X502" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="X502" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="X502" pin="8" pinfunction="Pin_8" pintype="passive"/>
     </net>
-    <net code="34" name="Net-(X1402-Pin_12)" class="Default">
-      <node ref="R1407" pin="2" pintype="passive"/>
-      <node ref="X1402" pin="12" pinfunction="Pin_12" pintype="passive"/>
+    <net code="34" name="Net-(X502-Pin_12)" class="Default">
+      <node ref="R501" pin="2" pintype="passive"/>
+      <node ref="X502" pin="12" pinfunction="Pin_12" pintype="passive"/>
     </net>
-    <net code="35" name="unconnected-(IC1101-P1_4-Pad14)" class="Default">
-      <node ref="IC1101" pin="14" pinfunction="P1_4" pintype="bidirectional+no_connect"/>
+    <net code="35" name="unconnected-(IC401-P1_4-Pad14)" class="Default">
+      <node ref="IC401" pin="14" pinfunction="P1_4" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="36" name="unconnected-(IC1101-P1_5-Pad15)" class="Default">
-      <node ref="IC1101" pin="15" pinfunction="P1_5" pintype="bidirectional+no_connect"/>
+    <net code="36" name="unconnected-(IC401-P1_5-Pad15)" class="Default">
+      <node ref="IC401" pin="15" pinfunction="P1_5" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="37" name="unconnected-(IC1101-P1_6-Pad16)" class="Default">
-      <node ref="IC1101" pin="16" pinfunction="P1_6" pintype="bidirectional+no_connect"/>
+    <net code="37" name="unconnected-(IC401-P1_6-Pad16)" class="Default">
+      <node ref="IC401" pin="16" pinfunction="P1_6" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="38" name="unconnected-(IC1101-P1_7-Pad17)" class="Default">
-      <node ref="IC1101" pin="17" pinfunction="P1_7" pintype="bidirectional+no_connect"/>
+    <net code="38" name="unconnected-(IC401-P1_7-Pad17)" class="Default">
+      <node ref="IC401" pin="17" pinfunction="P1_7" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="39" name="unconnected-(X1402-Pin_1-Pad1)" class="Default">
-      <node ref="X1402" pin="1" pinfunction="Pin_1" pintype="passive+no_connect"/>
+    <net code="39" name="unconnected-(X502-Pin_1-Pad1)" class="Default">
+      <node ref="X502" pin="1" pinfunction="Pin_1" pintype="passive+no_connect"/>
     </net>
-    <net code="40" name="unconnected-(X1402-Pin_2-Pad2)" class="Default">
-      <node ref="X1402" pin="2" pinfunction="Pin_2" pintype="passive+no_connect"/>
+    <net code="40" name="unconnected-(X502-Pin_2-Pad2)" class="Default">
+      <node ref="X502" pin="2" pinfunction="Pin_2" pintype="passive+no_connect"/>
     </net>
-    <net code="41" name="unconnected-(X1402-Pin_3-Pad3)" class="Default">
-      <node ref="X1402" pin="3" pinfunction="Pin_3" pintype="passive+no_connect"/>
+    <net code="41" name="unconnected-(X502-Pin_3-Pad3)" class="Default">
+      <node ref="X502" pin="3" pinfunction="Pin_3" pintype="passive+no_connect"/>
     </net>
-    <net code="42" name="unconnected-(X1402-Pin_4-Pad4)" class="Default">
-      <node ref="X1402" pin="4" pinfunction="Pin_4" pintype="passive+no_connect"/>
+    <net code="42" name="unconnected-(X502-Pin_4-Pad4)" class="Default">
+      <node ref="X502" pin="4" pinfunction="Pin_4" pintype="passive+no_connect"/>
     </net>
   </nets>
 </export>

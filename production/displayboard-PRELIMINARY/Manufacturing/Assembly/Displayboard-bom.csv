@@ -1,0 +1,19 @@
+Row,Quantity Per PCB,References,Value,Datasheet,Footprint,Description,manf,manf#
+1,2,C401 C402,100n,https://datasheets.kyocera-avx.com/X7RDielectric.pdf,C_0805_2012Metric,Unpolarized capacitor,KYOCERA AVX,08056C104JAT2A
+2,1,D401,STATUS,https://4donline.ihs.com/images/VipMasterIC/IC/AVGO/AVGO-S-A0004511384/AVGO-S-A0004511384-1.pdf?hkey=CECEF36DEECDED6468708AAF2E19C0C6,LED_ASMB-KTF0-0A306,"RGB LED, anode/blue/green/red",Broadcom / Avago,ASMB-KTF0-0A306
+3,1,IC401,PCAL6416AHF,https://www.nxp.com/docs/en/data-sheet/PCAL6416A.pdf,HVQFN-24-1EP_4x4mm_P0.5mm_EP2.1x2.1mm,"IO expander 16 GPIO, I2C 400kHz, Interrupt, 1.65 - 5.5V, HWQFN-24",NXP Semiconductors,"PCAL6416AHF,128"
+4,1,Q501,NPN,https://assets.nexperia.com/documents/data-sheet/BC817W_SER.pdf,SOT-23,"0.8A Ic, 45V Vce, NPN Transistor, SOT-23",Nexperia,"BC817W,135"
+5,1,R502,10R,,R_0805_2012Metric,Resistor,,
+6,1,R504,100R,https://eu.mouser.com/datasheet/3/40/1/cr.pdf,R_0805_2012Metric,Resistor,Bourns,CR0805-JW-101ELF
+7,1,R404,330R,https://www.mouser.de/datasheet/3/40/1/cr.pdf,R_0805_2012Metric,Resistor,Bourns,CR0805-JW-331ELF
+8,1,R405,470R,https://www.mouser.de/datasheet/3/40/1/cr.pdf,R_0805_2012Metric,Resistor,Bourns,CR0805-JW-471ELF
+9,1,R403,1k3,https://eu.mouser.com/datasheet/3/40/1/cr.pdf,R_0805_2012Metric,Resistor,Bourns,CR0805-JW-132ELF
+10,1,R402,10k,https://www.mouser.de/datasheet/2/54/cr-1858361.pdf,R_0805_2012Metric,Resistor,Bourns,CR0805-JW-103ELF
+11,2,R401 R503,100k,https://www.mouser.de/datasheet/2/54/cr-1858361.pdf,R_0805_2012Metric,Resistor,Bourns,CR0805-JW-104ELF
+12,1,S401,JS1400,https://configured-product-images.s3.amazonaws.com/2D/specs/JS1400BVQ.pdf,JS1400BVQ,"NAVIGATION, 50mA, 12VDC SPST-NO, 4 Way Directional, Center Select Surface Mount",E-Switch,JS1400
+13,1,SW401,Button 1,https://www.we-online.com/components/products/datasheet/430182095816.pdf,WS-TASV-6x6,MEC 5E single pole normally-open tactile switch,Wurth Elektronik,430182070816
+14,1,SW402,Button 2,https://www.we-online.com/components/products/datasheet/430182095816.pdf,WS-TASV-6x6,MEC 5E single pole normally-open tactile switch,Wurth Elektronik,430182070816
+15,1,SW403,Button 3,https://www.we-online.com/components/products/datasheet/430182095816.pdf,WS-TASV-6x6,MEC 5E single pole normally-open tactile switch,Wurth Elektronik,430182070816
+16,1,SW404,Button 4,https://www.we-online.com/components/products/datasheet/430182095816.pdf,WS-TASV-6x6,MEC 5E single pole normally-open tactile switch,Wurth Elektronik,430182070816
+17,1,X503,Mainboard,https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/f32r-f32j.pdf,Amphenol_F32R-1A7x1-11014_1x14-1MP_P0.5mm_Horizontal,"Generic connectable mounting pin connector, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)",Amphenol Aorora,F32R-1A7H1-11014
+18,2,X501 X502,Touch,~,Amphenol_F32R-1A7x1-11006_1x06-1MP_P0.5mm_Horizontal,"Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/) Generic connector, single row, 01x18, script generated (kicad-library-utils/schlib/autogen/connector/)",Amphenol Aorora,F32R-1A7H1-11006
