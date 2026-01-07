@@ -42,7 +42,7 @@
 	(text_box "[${#}] ${TITLE}"
 		(exclude_from_sim no)
 		(at 12.7 12.7 0)
-		(size 394.97 13.97)
+		(size 394.97 20.32)
 		(margins 5.9999 5.9999 5.9999 5.9999)
 		(stroke
 			(width -0.0001)
@@ -60,7 +60,7 @@
 				(color 162 22 34 1)
 			)
 		)
-		(uuid "f4789478-c68e-4cee-9edd-5d11b744f94d")
+		(uuid "b5f8cf79-7c1e-4957-a285-bdfaec310146")
 	)
 	(wire
 		(pts
@@ -146,7 +146,7 @@
 				(justify right)
 			)
 		)
-		(pin "~{Expander-INT}" input
+		(pin "~{Expander-Int}" input
 			(at 200.66 132.08 0)
 			(uuid "c3aefbeb-41f4-44f7-9a5a-f4fbd5771e4e")
 			(effects
@@ -198,7 +198,7 @@
 				(justify left top)
 			)
 		)
-		(pin "~{Expander-INT}" output
+		(pin "~{Expander-Int}" output
 			(at 247.65 132.08 180)
 			(uuid "1818be55-c7f8-40e5-8e75-d6f26594b76e")
 			(effects
