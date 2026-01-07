@@ -743,7 +743,7 @@
     "RELEASE_DATE_NUM": "2025-12-30",
     "RELEASE_TITLE_2.2.0": "Version 2.2.0 not found.",
     "RELEASE_TITLE_UNRELEASED": "Version Unreleased not found.",
-    "REVISION": "",
+    "REVISION": "x.y.z",
     "SHEET_NAME_1": "Cover Page",
     "SHEET_NAME_10": "......................................",
     "SHEET_NAME_11": "......................................",
