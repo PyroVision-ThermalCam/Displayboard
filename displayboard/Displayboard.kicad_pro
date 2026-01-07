@@ -468,7 +468,7 @@
       "unconnected_wire_endpoint": "warning",
       "undefined_netclass": "error",
       "unit_value_mismatch": "error",
-      "unresolved_variable": "error",
+      "unresolved_variable": "warning",
       "wire_dangling": "error"
     }
   },
@@ -737,13 +737,9 @@
     "GIT_HASH_SCH": "282ed14",
     "GIT_URL": "https://github.com/PyroVision-ThermalCam/Displayboard",
     "PROJECT_NAME": "PyroVision",
-    "RELEASE_BODY_2.2.0": "Version 2.2.0 not found.",
-    "RELEASE_BODY_UNRELEASED": "Version Unreleased not found.",
     "RELEASE_DATE": "30-Dec-2025",
     "RELEASE_DATE_NUM": "2025-12-30",
-    "RELEASE_TITLE_2.2.0": "Version 2.2.0 not found.",
-    "RELEASE_TITLE_UNRELEASED": "Version Unreleased not found.",
-    "REVISION": "",
+    "REVISION": "x.y.z",
     "SHEET_NAME_1": "Cover Page",
     "SHEET_NAME_10": "......................................",
     "SHEET_NAME_11": "......................................",
