@@ -7687,9 +7687,9 @@
 		(uuid "155bc13d-fb4a-4fcd-b340-957ad8b49bb4")
 	)
 	(gr_arc
-		(start 236 79.5)
-		(mid 236.292893 78.792893)
-		(end 237 78.5)
+		(start 238 79.5)
+		(mid 238.292893 78.792893)
+		(end 239 78.5)
 		(stroke
 			(width 0.254)
 			(type default)
@@ -7845,8 +7845,8 @@
 		(uuid "979ff552-2cb0-4c4b-a7c5-1e95cdde2387")
 	)
 	(gr_line
-		(start 236 85.75)
-		(end 236 79.5)
+		(start 238 85.75)
+		(end 238 79.5)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -7855,9 +7855,9 @@
 		(uuid "a5dc3e08-8f7d-489c-a814-f0896e06e991")
 	)
 	(gr_arc
-		(start 236 85.75)
-		(mid 235.707107 86.457107)
-		(end 235 86.75)
+		(start 238 85.75)
+		(mid 237.707107 86.457107)
+		(end 237 86.75)
 		(stroke
 			(width 0.254)
 			(type default)
@@ -7877,7 +7877,7 @@
 	)
 	(gr_line
 		(start 224 86.75)
-		(end 235 86.75)
+		(end 237 86.75)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -7886,7 +7886,7 @@
 		(uuid "c357ecb0-e6b4-4d3a-9da8-a49b7ee60047")
 	)
 	(gr_line
-		(start 237 78.5)
+		(start 239 78.5)
 		(end 258.5 78.5)
 		(stroke
 			(width 0.254)
@@ -17303,7 +17303,7 @@
 		(layer "User.6")
 		(uuid "96059cd9-01e5-41e1-bf67-09fe0a9aa994")
 		(pts
-			(xy 239.8 78.5) (xy 235 86.75)
+			(xy 239.8 78.5) (xy 239.8 86.75)
 		)
 		(height 24.2)
 		(orientation 1)
@@ -17327,43 +17327,6 @@
 			(at 263.08 82.625 90)
 			(layer "User.6")
 			(uuid "96059cd9-01e5-41e1-bf67-09fe0a9aa994")
-			(effects
-				(font
-					(size 0.8 0.8)
-					(thickness 0.12)
-				)
-			)
-		)
-	)
-	(dimension
-		(type orthogonal)
-		(layer "User.6")
-		(uuid "bd948217-682b-42f5-bc70-ecce50a7a6a9")
-		(pts
-			(xy 236 79.5) (xy 260.5 80.5)
-		)
-		(height -7.7)
-		(orientation 0)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 1)
-			(precision 4)
-		)
-		(style
-			(thickness 0.1)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(arrow_direction outward)
-			(extension_height 0.58642)
-			(extension_offset 0.5)
-			(keep_text_aligned yes)
-		)
-		(gr_text "24,5000 mm"
-			(at 248.25 70.88 0)
-			(layer "User.6")
-			(uuid "bd948217-682b-42f5-bc70-ecce50a7a6a9")
 			(effects
 				(font
 					(size 0.8 0.8)
