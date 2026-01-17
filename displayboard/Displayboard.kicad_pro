@@ -730,16 +730,20 @@
   "text_variables": {
     "ASSEMBLY_NOTES": "",
     "BOARD_NAME": "Displayboard",
-    "COMPANY": "Kampis-Elektroecke",
+    "COMPANY": "PyroVision",
     "DESIGNER": "Daniel Kampert",
     "FABRICATION_NOTES": "",
-    "GIT_HASH_PCB": "282ed14",
-    "GIT_HASH_SCH": "282ed14",
+    "GIT_HASH_PCB": "9701a2d",
+    "GIT_HASH_SCH": "ee70cdb",
     "GIT_URL": "https://github.com/PyroVision-ThermalCam/Displayboard",
     "PROJECT_NAME": "PyroVision",
-    "RELEASE_DATE": "30-Dec-2025",
-    "RELEASE_DATE_NUM": "2025-12-30",
-    "REVISION": "x.y.z",
+    "RELEASE_BODY_1.0.0": "___________________________________\n\nAdded\n\n-   Initial release",
+    "RELEASE_BODY_UNRELEASED": "Version Unreleased not found.",
+    "RELEASE_DATE": "17-Jan-2026",
+    "RELEASE_DATE_NUM": "2026-01-17",
+    "RELEASE_TITLE_1.0.0": "Version 1.0.0 - 2026-01-17",
+    "RELEASE_TITLE_UNRELEASED": "Version Unreleased not found.",
+    "REVISION": "",
     "SHEET_NAME_1": "Cover Page",
     "SHEET_NAME_10": "......................................",
     "SHEET_NAME_11": "......................................",
@@ -780,6 +784,6 @@
     "SHEET_NAME_7": "......................................",
     "SHEET_NAME_8": "......................................",
     "SHEET_NAME_9": "......................................",
-    "VARIANT": "PRELIMINARY"
+    "VARIANT": "RELEASED"
   }
 }

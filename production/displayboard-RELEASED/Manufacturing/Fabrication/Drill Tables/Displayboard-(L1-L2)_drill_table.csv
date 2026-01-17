@@ -1,0 +1,5 @@
+Count,Hole Size,Plated,Hole Shape,Drill Layer Pair,Hole Type
+38,0.25mm (9.84mils),PTH,Round,F.Cu - B.Cu,Via
+32,0.50mm (19.69mils),PTH,Round,F.Cu - B.Cu,Pad
+4,2.70mm (106.30mils),PTH,Round,F.Cu - B.Cu,Pad
+Total 74,,,,,
