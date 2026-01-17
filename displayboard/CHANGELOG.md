@@ -2,9 +2,15 @@
 
 ## [Unreleased]
 
+**Added:**
+
+- Add a cutout for the display cable, add different assembly improvements
+- Add missing dimensions for the PCB size
+- Add debounce capacitors to push buttons
+
 ## [1.0.0] - 2026-01-17
 
-### Added
+**Added:**
 
 -   Initial release
 

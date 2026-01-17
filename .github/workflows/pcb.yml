@@ -42,6 +42,12 @@ env:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
   release:
@@ -70,13 +76,13 @@ jobs:
       - name: Download updated CHANGELOG
         uses: actions/download-artifact@v4
         with:
-          name: CHANGELOG
+          name: CHANGELOG.md
           path: .
 
       - name: Download build artifacts
         uses: actions/download-artifact@v4
         with:
-          name: ${{ env.kibot_variant }}
+          name: ${{ env.kibot_variant }}.zip
           path: .
 
       - name: ZIP artifact
@@ -130,14 +136,14 @@ jobs:
 
       - name: Extract release notes
         if: ${{ github.ref_type == 'tag' }}
-        uses: ffurrer2/extract-release-notes@v2
+        uses: ffurrer2/extract-release-notes@v3
         with:
           changelog_file: ${{ env.kibot_input_dir }}/CHANGELOG.md
           prerelease: true
 
       - name: Update CHANGELOG
         if: ${{ github.ref_type == 'tag' }}
-        uses: thomaseizinger/keep-a-changelog-new-release@v2
+        uses: thomaseizinger/keep-a-changelog-new-release@v3
         with:
           changelogPath: ${{ env.kibot_input_dir }}/CHANGELOG.md
           tag: ${{ github.ref_name }}
@@ -155,6 +161,11 @@ jobs:
         with:
           path: ~/cache_3d
           key: cache_3d
+
+      - name: Replace .wrl with .step in PCB file
+        shell: bash
+        run: |
+          sed -i 's/\.wrl/.step/g' ${{ env.kibot_input_dir }}/${{ env.kicad_board }}.kicad_pcb
 
       - name: Determine VERSION argument and override variant if tag
         shell: bash
@@ -224,7 +235,7 @@ jobs:
         uses: actions/upload-artifact@v4
         if: ${{ always() }}
         with:
-          name: Log-${{ env.kibot_variant }}
+          name: Log-${{ env.kibot_variant }}.zip
           path: log
 
       - name: Clean up
@@ -240,7 +251,7 @@ jobs:
       - name: Upload artifacts (results)
         uses: actions/upload-artifact@v4
         with:
-          name: ${{ env.kibot_variant }}
+          name: ${{ env.kibot_variant }}.zip
           path: production
           if-no-files-found: ignore
 
@@ -248,7 +259,7 @@ jobs:
         if: ${{ github.ref_type == 'tag' }}
         uses: actions/upload-artifact@v4
         with:
-          name: CHANGELOG
+          name: CHANGELOG.md
           path: ${{ env.kibot_input_dir }}/CHANGELOG.md
 
       - name: Pull latest changes
@@ -286,3 +297,38 @@ jobs:
         with:
           branch: ${{ github.ref_name }}
           commit_message: Push outputs from CI/CD (${{ env.DATE }})
+
+  deploy:
+    needs: generate_outputs
+    runs-on: ubuntu-latest
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    if: github.ref_type == 'tag'
+    steps:
+      - name: Determine variant
+        shell: bash
+        run: |
+          if [[ "${{ github.ref_type }}" == "tag" ]]; then
+            echo "kibot_variant=RELEASED" >> "${GITHUB_ENV}"
+          else
+            echo "kibot_variant=${{ env.kibot_variant }}" >> "${GITHUB_ENV}"
+          fi
+
+      - name: Download build artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: ${{ env.kibot_variant }}.zip
+          path: production
+
+      - name: Upload pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: production/${{ env.kibot_output_dir }}-${{ env.kibot_variant }}
+          overwrite: true
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
