@@ -1,0 +1,77 @@
+ERC report (2026-01-17T13:13:51+0000, Encoding UTF8)
+
+***** Sheet /
+[unresolved_variable]: Unresolved text variable
+    ; warning
+    @(0.8636 mm, 0.3175 mm): Text Box
+
+[unresolved_variable]: Unresolved text variable
+    ; warning
+    @(0.889 mm, 0.3556 mm): Text Box
+
+[unresolved_variable]: Unresolved text variable
+    ; warning
+    @(1.524 mm, 0.3175 mm): Text Box
+
+[unresolved_variable]: Unresolved text variable
+    ; warning
+    @(1.5494 mm, 0.3556 mm): Text Box
+
+[unresolved_variable]: Unresolved text variable
+    ; warning
+    @(2.1844 mm, 0.3175 mm): Text Box
+
+[unresolved_variable]: Unresolved text variable
+    ; warning
+    @(2.2098 mm, 0.3556 mm): Text Box
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'Molex_Kampi'.
+    ; warning
+    @(0.5588 mm, 1.1811 mm): Symbol X502 [Conn_01x18_MountingPin]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'E-Switch'.
+    ; warning
+    @(1.4859 mm, 0.7493 mm): Symbol S401 [JS1400]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'E-Switch'
+    ; warning
+    @(1.4859 mm, 0.7493 mm): Symbol S401 [JS1400]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'Wuerth'.
+    ; warning
+    @(1.7399 mm, 0.6985 mm): Symbol SW401 [430182095816]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'Wuerth'
+    ; warning
+    @(1.7399 mm, 0.6985 mm): Symbol SW401 [430182095816]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'Wuerth'.
+    ; warning
+    @(1.9431 mm, 0.6985 mm): Symbol SW402 [430182095816]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'Wuerth'
+    ; warning
+    @(1.9431 mm, 0.6985 mm): Symbol SW402 [430182095816]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'Wuerth'.
+    ; warning
+    @(2.159 mm, 0.6985 mm): Symbol SW403 [430182095816]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'Wuerth'
+    ; warning
+    @(2.159 mm, 0.6985 mm): Symbol SW403 [430182095816]
+
+[footprint_link_issues]: The current configuration does not include the footprint library 'Wuerth'.
+    ; warning
+    @(2.3622 mm, 0.6985 mm): Symbol SW404 [430182095816]
+
+[lib_symbol_issues]: The current configuration does not include the symbol library 'Wuerth'
+    ; warning
+    @(2.3622 mm, 0.6985 mm): Symbol SW404 [430182095816]
+
+***** Sheet /Block Diagram/
+***** Sheet /Project Architecture/
+***** Sheet /Project Architecture/Peripherals/
+***** Sheet /Project Architecture/Connectors/
+***** Sheet /Revision History/
+ ** ERC messages: 17  Errors 0  Warnings 17
