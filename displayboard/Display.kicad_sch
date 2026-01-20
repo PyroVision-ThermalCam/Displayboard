@@ -3801,7 +3801,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/5051101892?display=pdf"
 			(at 55.88 118.11 0)
 			(effects
 				(font
@@ -5088,7 +5088,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/f32r-f32j.pdf"
 			(at 55.88 57.15 0)
 			(effects
 				(font
@@ -5208,7 +5208,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.de/datasheet/3/40/1/CRS.pdf"
 			(at 85.09 123.19 0)
 			(effects
 				(font
@@ -5235,7 +5235,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf" ""
+		(property "manf" "Bourns"
 			(at 85.09 123.19 0)
 			(effects
 				(font
@@ -5244,7 +5244,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" ""
+		(property "manf#" "CRS0805-JX-100ELF"
 			(at 85.09 123.19 0)
 			(effects
 				(font
@@ -5253,7 +5253,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" ""
+		(property "mouser#" "652-CRS0805-JX-100ELF"
 			(at 85.09 123.19 0)
 			(effects
 				(font
