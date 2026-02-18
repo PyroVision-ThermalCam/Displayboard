@@ -2410,7 +2410,7 @@
 				)
 			)
 		)
-		(property "Value" "JS1400"
+		(property "Value" "NAVIGATION"
 			(at 0 0 135)
 			(layer "F.SilkS")
 			(hide yes)
@@ -2422,7 +2422,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://configured-product-images.s3.amazonaws.com/2D/specs/JS1400BVQ.pdf"
+		(property "Datasheet" "https://www.apem.com/de/medias/download/PCB_MU_serie.pdf"
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
@@ -2446,7 +2446,7 @@
 				)
 			)
 		)
-		(property "manf" "E-Switch"
+		(property "manf" "Apem"
 			(at 0 0 315)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2459,7 +2459,7 @@
 				)
 			)
 		)
-		(property "manf#" "JS1400"
+		(property "manf#" "MU-BUE70R"
 			(at 0 0 315)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2472,7 +2472,7 @@
 				)
 			)
 		)
-		(property "mouser#" "612-JS1400"
+		(property "mouser#" "642-MU-BUE70R"
 			(at 0 0 315)
 			(unlocked yes)
 			(layer "F.Fab")

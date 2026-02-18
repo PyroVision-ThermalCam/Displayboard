@@ -2,11 +2,15 @@
 
 ## [Unreleased]
 
+**Changed:**
+
+- Replace JS1400BFQ with MU-BUE70R
+
 ## [1.0.0] - 2026-01-17
 
-### Added
+**Added:**
 
--   Initial release
+- Initial release
 
 [Unreleased]: https://github.com/PyroVision-ThermalCam/Displayboard/compare/1.0.0...HEAD
 
