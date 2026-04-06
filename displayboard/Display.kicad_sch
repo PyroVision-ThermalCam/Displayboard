@@ -2430,6 +2430,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 120.65) (xy 100.33 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "005f5b7a-9323-43bb-8a8e-975923ede599")
+	)
+	(wire
+		(pts
 			(xy 281.94 149.86) (xy 281.94 148.59)
 		)
 		(stroke
@@ -2887,6 +2897,16 @@
 			(type default)
 		)
 		(uuid "addc99e3-898f-4228-b08a-9689b96344d2")
+	)
+	(wire
+		(pts
+			(xy 100.33 110.49) (xy 100.33 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af346ccf-eacb-411a-91bc-47e207d9f597")
 	)
 	(wire
 		(pts
@@ -3522,6 +3542,113 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 100.33 116.84 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "34744969-6e9b-4936-b0f9-e51752b834c6")
+		(property "Reference" "R505"
+			(at 102.87 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0R"
+			(at 102.87 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 102.108 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 100.33 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CONFIG" ""
+			(at 100.33 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" ""
+			(at 100.33 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 100.33 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" ""
+			(at 100.33 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1c4345d-3141-473e-9b28-02635cc4869d")
+		)
+		(pin "2"
+			(uuid "c7a4ceb0-3f6d-4e1d-9891-de628b8c19fe")
+		)
+		(instances
+			(project "Displayboard"
+				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/87ec52b1-2e4e-4bae-bd8b-72c5c03421b9"
+					(reference "R505")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 59.69 39.37 0)
 		(unit 1)
@@ -3672,7 +3799,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NPN"
+		(property "Value" "BC817W"
 			(at 87.63 130.8099 0)
 			(effects
 				(font
@@ -3801,7 +3928,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/5051101892?display=pdf"
+		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/f32r-f32j.pdf"
 			(at 55.88 118.11 0)
 			(effects
 				(font
@@ -3819,7 +3946,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf" "Molex"
+		(property "manf" "Amphenol Aorora"
 			(at 55.88 118.11 0)
 			(effects
 				(font
@@ -3828,7 +3955,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "505110-1892"
+		(property "manf#" "F32R-1A7H1-11018"
 			(at 55.88 118.11 0)
 			(effects
 				(font
@@ -3837,7 +3964,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "538-505110-1892"
+		(property "mouser#" "649-F32R-1A7H1-11018"
 			(at 55.88 118.11 0)
 			(effects
 				(font
@@ -5167,6 +5294,72 @@
 			(project ""
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/87ec52b1-2e4e-4bae-bd8b-72c5c03421b9"
 					(reference "X501")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 100.33 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe9e0da9-e439-4188-8344-606b17cda476")
+		(property "Reference" "#PWR0514"
+			(at 100.33 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 100.33 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 100.33 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb724cd2-3c29-4e45-9619-bbec9e6e08ef")
+		)
+		(instances
+			(project "Displayboard"
+				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/87ec52b1-2e4e-4bae-bd8b-72c5c03421b9"
+					(reference "#PWR0514")
 					(unit 1)
 				)
 			)

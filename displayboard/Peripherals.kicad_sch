@@ -3956,7 +3956,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "STATUS"
+		(property "Value" "Status"
 			(at 106.68 60.9599 90)
 			(effects
 				(font
@@ -5238,7 +5238,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "NAVIGATION"
+		(property "Value" "Navigation"
 			(at 154.94 76.4031 90)
 			(effects
 				(font
