@@ -5,6 +5,11 @@
 **Changed:**
 
 - Replace JS1400BFQ with MU-BUE70R
+- Replace NPN transistor with N-Channel MOSFET
+
+**Added:**
+
+- Add debounce capacitors for push buttons
 
 ## [1.0.0] - 2026-01-17
 
