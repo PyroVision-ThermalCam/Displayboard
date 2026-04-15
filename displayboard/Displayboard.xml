@@ -2,25 +2,25 @@
 <export version="E">
   <design>
     <source>/__w/Displayboard/Displayboard/displayboard/Displayboard.kicad_sch</source>
-    <date>2026-01-17T13:16:42+0000</date>
-    <tool>Eeschema 9.0.6+1</tool>
+    <date>2026-04-15T07:04:24+0000</date>
+    <tool>Eeschema 9.0.7+1</tool>
     <textvar name="ASSEMBLY_NOTES"/>
     <textvar name="BOARD_NAME">Displayboard</textvar>
     <textvar name="COMPANY">PyroVision</textvar>
     <textvar name="DESIGNER">Daniel Kampert</textvar>
     <textvar name="FABRICATION_NOTES"/>
-    <textvar name="GIT_HASH_PCB">9701a2d</textvar>
+    <textvar name="GIT_HASH_PCB">0cb4396</textvar>
     <textvar name="GIT_HASH_SCH">ee70cdb</textvar>
     <textvar name="GIT_URL">https://github.com/PyroVision-ThermalCam/Displayboard</textvar>
     <textvar name="PROJECT_NAME">PyroVision</textvar>
-    <textvar name="RELEASE_BODY_1.0.0">___________________________________
+    <textvar name="RELEASE_BODY_1.0.0">**Added:**
 
-Added
+- Initial release
 
--   Initial release</textvar>
+[unreleased]: https://github.com/PyroVision-ThermalCam/Displayboard/compare/1.0.1...HEAD</textvar>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">17-Jan-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-01-17</textvar>
+    <textvar name="RELEASE_DATE">15-Apr-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-04-15</textvar>
     <textvar name="RELEASE_TITLE_1.0.0">Version 1.0.0 - 2026-01-17</textvar>
     <textvar name="RELEASE_TITLE_UNRELEASED">Version Unreleased not found.</textvar>
     <textvar name="REVISION"/>
