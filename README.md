@@ -1,4 +1,8 @@
-# PyroVision
+# PyroVision - Displayboard
+
+[![License](https://img.shields.io/badge/License-GPL%203.0-blue.svg)](https://opensource.org/license/gpl-3-0/)
+[![PCB](https://github.com/PyroVision-ThermalCam/Displayboard/actions/workflows/pcb.yml/badge.svg)](https://github.com/PyroVision-ThermalCam/Displayboard/actions/workflows/pcb.yml)
+[![Documentation](https://img.shields.io/badge/KiBot-Documentation-blue?longCache=true&style=flat&logo=asciidoctor&colorA=555555)](https://pyrovision-thermalcam.github.io/Displayboard/)
 
 ## Table of Contents
 
