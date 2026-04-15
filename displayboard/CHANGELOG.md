@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+## [1.0.1] - 2026-04-15
+
 **Added:**
 
 - Add a cutout for the display cable, add different assembly improvements
@@ -12,8 +14,8 @@
 
 **Added:**
 
--   Initial release
+- Initial release
 
-[Unreleased]: https://github.com/PyroVision-ThermalCam/Displayboard/compare/1.0.0...HEAD
-
+[unreleased]: https://github.com/PyroVision-ThermalCam/Displayboard/compare/1.0.1...HEAD
+[1.0.1]: https://github.com/PyroVision-ThermalCam/Displayboard/compare/1.0.0...1.0.1
 [1.0.0]: https://github.com/PyroVision-ThermalCam/Displayboard/compare/6cafd0a4d7573761b307ed2d026d5e221fb4730c...1.0.0
