@@ -12,6 +12,7 @@
 *.kicad_sch-bak
 *.kicad_prl
 *.sch-bak
+*.history
 *~
 _autosave-*
 *#auto_saved_files#*
